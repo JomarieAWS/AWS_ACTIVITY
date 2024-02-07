@@ -1,0 +1,281 @@
+
+.Bahay_Card{
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  width:45vw !important;
+  height: 53vh !important;
+  margin-top: 2vh !important;
+margin-left: 5vh !important;
+font-size: 3vh !important;
+font-family: 'Times New Roman', Times, serif;
+  
+}
+.Bahay_Container{
+text-align: center;
+background-image: url('https://wallpapers.com/images/hd/super-mario-world-1920-x-1080-background-p9kn2jdk4y90bz3k.jpg');
+background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  
+  font-family: 'UnifrakturMaguntia','san-serif';
+width: 100vw;
+ height: 100vh;
+}
+.Bahay_CreatedBy{
+
+  font-family: 'Anton','san-serif';
+}
+
+.Bahay_ContantContainter{
+margin-top: 3vh;
+float: auto;
+width: 50vw !important;
+}
+.Bahay_Title{
+
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-size: 7vh;
+  font-style: normal;
+}
+.Calculator_Button{
+  font-family: 'Satisfy'!important;
+  color: #de0837 !important;
+  background-color: #ff89e0 !important;
+  font-size: 4vh !important;
+  height: 7vh !important;
+  width: 20vw !important;
+  
+}
+.JSON_Button{
+  font-family: 'Permanent Marker' !important;
+  color: #ffffff !important;
+  background-color: #79e3f1 !important;
+  font-size: 4vh !important;
+  height: 7vh !important;
+  width: 20vw !important;
+}
+
+.HobbyButton{
+  color: #ffffff !important;
+  background-color: #ff0000 !important;
+  font-family: 'Anton'!important;
+  font-size: 4vh !important;
+  height: 8vh !important;
+  width: 15vw !important;
+
+}
+
+.Bahay_CreatedBy{
+
+text-align: center;
+font-size: 30px;
+}
+
+.Bahay_Button{
+  color: #ffffff !important;
+  background-color: #6b6b6b !important;
+  width: 70% !important;
+
+} 
+.Hobby_Img{
+  height: 180px !important;
+  width: 180px !important;
+ 
+}
+.Card_Title{
+  font-size: 4vh !important;
+}
+
+/* CALCULATOR ===================================  */
+
+.Calculator_Container {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  margin-top: 5vh;
+  float: left;
+  width: 45vw !important;
+  height: 65vh !important;
+}
+.Calculator_TextBox {
+  font-family: "Permanent Marker" !important;
+  font-size: 8vh !important;
+  margin-top: 5vh !important;
+  margin-left: 1vw !important;
+  margin-bottom: 2vh !important;
+  text-align: end;
+  width: 39vw !important;
+  height: 10vh !important;
+}
+
+.Calculator_Row {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.Calculator_BG {
+  background-image: url("https://verilymag.com/.image/t_share/MTY2NDQ5OTcxMjI5MzY5NTA1/lover---taylor-swift.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100vw;
+  height: 100vh;
+}
+.CalculatorButton {
+  outline: auto;
+  font-family: "Permanent Marker" !important;
+  color: #f9437a !important;
+  background-color: #79e3f1 !important;
+  font-size: 4vh !important;
+  height: 10vh !important;
+  width: 6vw !important;
+  margin: 0 !important;
+}
+
+.Calculator_Title {
+  font-size: 10vh !important;
+  font-family: "Satisfy" !important;
+  color: #ef3459;
+  margin-left: 8vw !important;
+  padding-top: 5vh !important;
+}
+
+.BackToHomeCalc {
+  position: absolute;
+  text-align: center;
+  margin-left: 13vw !important;
+  bottom: 0;
+  font-family: "Permanent Marker" !important;
+  font-size: 3vh !important;
+  color: #ff60c7 !important;
+  background-color: #79e3f1 !important;
+  height: 6vh !important;
+  margin-bottom: 1vh !important;
+}
+/*
+
+<div className="Calculator_BG"> 
+<p className="Calculator_Title"> Celqueuelater </p>
+<Container className="Calculator_Container">
+ <Row>
+   <Col>
+    
+   </Col>
+ </Row>
+ 
+ <Row>
+   <Col>
+     <input className="Calculator_TextBox" type="text" value={myString}/> 
+   </Col>
+ </Row>
+
+ 
+ <Row className="Calculator_Row">
+   <Col>
+     <Button className="CalculatorButton" variant="primary" onClick={() => numberInputter("1")}>
+       1
+     </Button>{" "}
+   </Col>
+   <Col>
+     <Button className="CalculatorButton" variant="primary" onClick={() => numberInputter("2")}>
+       2
+     </Button>{" "}
+   </Col>
+   <Col>
+     <Button  className="CalculatorButton"  variant="primary" onClick={() => numberInputter("3")}>
+       3
+     </Button>{" "}
+   </Col>
+   <Col>
+     <Button className="CalculatorButton"  variant="primary" onClick={() => numberInputter("+")}>
+       +
+     </Button>{" "}
+   </Col>
+ </Row>
+
+ <Row className="Calculator_Row">
+   <Col>
+     <Button className="CalculatorButton"  variant="primary" onClick={() => numberInputter("4")}>
+       4
+     </Button>{" "}
+   </Col>
+   <Col>
+     <Button  className="CalculatorButton" variant="primary" onClick={() => numberInputter("5")}>
+       5
+     </Button>{" "}
+   </Col>
+   <Col>
+     <Button className="CalculatorButton"  variant="primary" onClick={() => numberInputter("6")}>
+       6
+     </Button>{" "}
+   </Col>
+   <Col>
+     <Button  className="CalculatorButton" variant="primary" onClick={() => numberInputter("-")}>
+       -
+     </Button>{" "}
+   </Col>
+ </Row>
+ <Row className="Calculator_Row">
+   <Col>
+     <Button  className="CalculatorButton" variant="primary" onClick={() => numberInputter("7")}>
+       7
+     </Button>{" "}
+   </Col>
+   <Col>
+     <Button  className="CalculatorButton" variant="primary" onClick={() => numberInputter("8")}>
+       8
+     </Button>{" "}
+   </Col>
+   <Col>
+     <Button  className="CalculatorButton" variant="primary" onClick={() => numberInputter("9")}>
+       9
+     </Button>{" "}
+   </Col>
+   <Col>
+     <Button  className="CalculatorButton" variant="primary" onClick={() => numberInputter("x")}>
+       x
+     </Button>{" "}
+   </Col>
+ </Row>
+ <Row className="Calculator_Row">
+   <Col>
+     <Button  className="CalculatorButton" variant="primary" onClick={() =>clearContent()}>
+       C
+     </Button>{" "}
+   </Col>
+   <Col>
+     <Button className="CalculatorButton"  variant="primary" onClick={() => numberInputter("0")}>
+       0
+     </Button>{" "}
+   </Col>
+   <Col>
+     <Button  className="CalculatorButton" variant="primary" onClick={() => calculateContent()}>
+       =
+     </Button>{" "}
+   </Col>
+   <Col>
+     <Button  className="CalculatorButton" variant="primary" onClick={() => numberInputter("/")}>
+       /
+     </Button>{" "}
+   </Col>
+ </Row>
+ <Button className="BackToHomeCalc" variant="outline-primary" href="/">
+   Back To Home
+ </Button>{" "}
+</Container>
+</div>
+
+//SampleCreation
+let num: string = "";
+const [myString, setString] = useState("");
+
+const numberInputter = (num: String) => {
+  return setString(myString + num);
+};
+const clearContent =() => {
+  return setString("");
+};
+
+const calculateContent =() => {
+  return setString("NaComputeDapat");
+};
+
+*/
